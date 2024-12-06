@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <!--  Using if condition
+
+        {% if name %}
+           <h1>{{name}}</h1>
+        {% endif %}
+    -->
+
+
+    <!-- Using if-else condition
+        {% if age > 18 %}
+            <h1>Eligible for marriage</h1>
+        {% else %}
+            <h1> not eligible</h1>
+        {% endif %}
+
+    -->
+
+
+    <!--  using elif condition
+        {% if age > 18 %}
+            <h1>child marriage</h1>
+        {% elif age > 20 %}
+            <h1>adult marriage</h1>
+        {% elif age > 30 %}
+            <h1>healthy marriage</h1>
+        {% else %}
+            <h1> ready to marry</h1>
+        {% endif %}
+
+    -->
+
+        <!--Using nested-if
+
+        {% if age < 30 %}
+           {% if age > 18 %}
+            <h1> Eligible for marriage</h1>
+           {% else %}
+            <h1> not eligible</h1>
+            {% endif %}
+        {% else %}
+            <h1>Single</h1>
+        {% endif %}
+    -->
+
+    for loop
+        {% for i in CDT %}
+           <h1> {{i}} </h1>
+        {% endfor %}
+
+
+
+    </center>
+    
+</body>
+</html>
